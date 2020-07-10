@@ -12,6 +12,8 @@ import {
     EmailIcon
 } from './styles';
 
+import ProfilePage from '../ProfilePage';
+
 const Main: React.FC = () => {
   return (
       <Container>
@@ -26,7 +28,7 @@ const Main: React.FC = () => {
               </ProfileInfo>
           </Header>
 
-          {/* <ProfilePage /> */}
+          <ProfilePage />
 
           <BottomMenu>
               <HomeIcon />
