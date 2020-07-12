@@ -27,7 +27,7 @@ const ProfilePage: React.FC = () => {
           <h2>@syond</h2>
 
           <p>
-            Full Stack Developer <a href="https://github.com/syond">@Github</a>
+            Full Stack Developer <a target="_blank" rel="noopener noreferrer" href="https://github.com/syond">@Github</a>
           </p>
 
           <ul>
