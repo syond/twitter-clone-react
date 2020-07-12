@@ -10,6 +10,7 @@ import {
 
 import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
+import News from '../News';
 
 const SideBar: React.FC = () => {
   return (
@@ -38,9 +39,20 @@ const SideBar: React.FC = () => {
                     ]}
                 />
                 <List 
-                    title="Talvez você curta"
+                    title="O que está acontecendo"
                     elements={[
-                        <h1>Teste</h1>
+                        <News 
+                            subject="Assuntos do momento no Brasil"
+                            description="Neymar cai de novo"
+                        />,
+                        <News 
+                            subject="Mundo"
+                            description="Fim da pandemia"
+                        />,
+                        <News 
+                            subject="#humor"
+                            description="Conheça as novas piadas de tiozão do churrasco"
+                        />,
                     ]}
                 />
           </Body>
