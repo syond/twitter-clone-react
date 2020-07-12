@@ -7,7 +7,7 @@ import {
   FavoriteBorder,
   Person,
   ExitToApp,
-  /**Rocketseat */
+  Rocketseat
 } from "../../styles/Icons";
 
 export const Container = styled.div`
@@ -39,11 +39,11 @@ export const Topside = styled.div`
   }
 `;
 
-export const Logo = styled(Notifications)`
+export const Logo = styled(Rocketseat)`
   width: 41px;
   height: 41px;
 
-  > svg {
+  > path {
     fill: var(--twitter);
   }
 `;
