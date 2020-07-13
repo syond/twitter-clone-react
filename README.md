@@ -1,5 +1,5 @@
 <h2 align="center">
-    A Twitter interface clone developed with ReactJS :)
+    A responsive Twitter interface clone developed with ReactJS :)
 </h2>
 
 <p align="center">
